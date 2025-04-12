@@ -23,3 +23,5 @@ Ini adalah halaman landing sederhana untuk sistem ERP (Enterprise Resource Plann
 
 - **Contact**  
   Menyediakan informasi kontak untuk WhatsApp dan email.
+
+# WEB : https://keda-tech-frontend-web-test.netlify.app/
