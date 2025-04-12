@@ -8,17 +8,16 @@ const HomePage = () => {
     >
       <div className="mx-auto text-center">
         <p className="text-gray-700 text-[22px] mb-4 max-w-[1000px] ml-[400px]">
-          Sebuah platform ERP modern yang dirancang khusus untuk membantu
-          pengusaha dalam mencatat setiap barang yang keluar masuk serta
-          memantau keuntungan harian secara efisien dan terstruktur.
+          A modern ERP platform specifically designed to assist entrepreneurs in
+          recording every incoming and outgoing item and monitoring daily
+          profits in an efficient and structured manner.
         </p>
 
         <div className="mt-20 items-center">
           <div className="text-left">
             <p className="italic text-gray-600 text-xl max-w-[700px]">
-              Kami membantu pengusaha mencatat alur keluar-masuk barang dan
-              keuntungan harian melalui sistem ERP yang praktis, cerdas, dan
-              mudah digunakan.
+              We help entrepreneurs record the daily flow of goods and profits
+              through a practical, smart and easy-to-use ERP system.
             </p>
             <img src="/chart.svg" alt="chart" className="w-80 mt-[150px]" />
           </div>
