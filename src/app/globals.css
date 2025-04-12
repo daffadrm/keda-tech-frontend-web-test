@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #2f2f2f; /* Soft White */
+  --foreground: #fdfdfd; /* Dark Gray (Not Black) */
+  
+  --primary: #45C9EF; /* Elegant Pink */
+  --secondary: #7c7c8d; /* Muted Blue Gray */
+  --border: #e0e0e0; /* Light Gray for Borders */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #2c2c3a; /* Deep Blue-Gray */
+    --foreground: #f4f4f4; /* Soft White */
+    --border: #55556d; /* Subtle Border */
+  }
+}
+
+body {
+  color: var(--background);
+  background: var(--foreground);
+  font-family: "Inter", Arial, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Border improvements */
+.border {
+  border-color: var(--border);
+}
+
+/* Link Styling */
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #45C9EF; /* Darker Pink */
+}
